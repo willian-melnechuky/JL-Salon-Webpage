@@ -2,7 +2,7 @@
 html {
   font-size: 90%;
   font-family: "Roboto Condensed", sans-serif;
-  color: #388082;
+  color: #444444;
 }
 html p, html h6 {
   font-size: 1rem;
@@ -33,7 +33,7 @@ html body {
   margin: 0;
 }
 html a {
-  color: #388082;
+  color: #444444;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 footer {
-  background-color: #e0d5c8;
+  background-color: #faefeb;
   padding-bottom: 2rem;
   padding-top: 2.5rem;
 }
@@ -58,7 +58,7 @@ footer .footer__list {
   margin: 0;
 }
 footer .footer__list--subtitle {
-  color: #81d7ca;
+  color: #b37957;
   font-size: 0.75rem;
   margin-top: 1.5rem;
   margin-bottom: 0;
