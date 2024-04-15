@@ -115,7 +115,7 @@ footer .footer__list__card__sublist--icons li {
   height: 70vh;
 }
 .hero__descr {
-  background-color: rgba(0, 0, 0, 0.2); /* Black w/opacity/see-through */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
   width: 60%;
 }
 .hero__img {
