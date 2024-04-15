@@ -1,25 +1,18 @@
-import reactImg from '../../assets/logo.png';
+// import reactImg from '../../assets/logo.png';
 import './Header.css';
 
-const reactDescriptions = ['Fundamental', 'Crucial', 'Core'];
-
-function genRandomInt(max) {
-  return Math.floor(Math.random() * (max + 1));
-}
-
-export default function Header() {
-  const description = reactDescriptions[genRandomInt(2)];
+export default function Header({page}) {
 
   return (
-    <>
-    <header>
-      <img src={reactImg} alt="Logo" />
-      <h1>Jane Hairstylist</h1>
-    </header>
-    <p>
-      {description} React concepts you will need for almost any app you are
-      going to build!
-  </p>
-  </>
+    <nav className="nav-bar">
+      <h5><a>Jane Hairstylist</a></h5>
+      {/* <img src={reactImg} alt="Logo" /> */}
+      <ul className="nav-bar__items">
+        <li className={"nav-bar__items" + (page =='Home'      ? '--selected' : "")}><a>Home</a></li>
+        <li className={"nav-bar__items" + (page =='Services'  ? '--selected' : "")}><a>Services</a></li>
+        <li className={"nav-bar__items" + (page =='Contact'   ? '--selected' : "")}><a>Contact</a></li>
+        <li className={"nav-bar__items" + (page =='Hours'     ? '--selected' : "")}><a>Hours</a></li>
+      </ul>
+    </nav>
   );
 }

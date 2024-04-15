@@ -30,7 +30,7 @@ export default function Services() {
   }
 
     return (
-        <Section title="Services" id="examples" >
+        <Section title="" id="examples" >
           <Tabs
             buttons ={
             <>

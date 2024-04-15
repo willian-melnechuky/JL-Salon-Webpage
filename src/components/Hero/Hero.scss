@@ -1,0 +1,26 @@
+@use "../scss_partials/_colors" as *;
+@use "../scss_partials/_global" as *;
+
+.hero {
+    background-color: $neutral-color-2;
+    @include flex-box(row, space-between,center, nowrap);
+    box-sizing: border-box;
+    padding: 3.75rem 5%;
+    &__descr {
+        @include flex-box(column, space-around,flex-start, nowrap);
+        padding-top: 4rem;
+        width: 50%
+    }
+    button {
+        background-color: $accent-color-2;
+        color: $neutral-color-1;
+        border: 0;
+        border-radius: 1rem;
+        padding: 0.4rem 2rem;
+    }
+    &__img {
+        width: 40%;
+        // height: 500px;
+        object-fit:scale-down;
+    }
+}

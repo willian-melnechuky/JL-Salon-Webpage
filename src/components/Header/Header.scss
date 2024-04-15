@@ -1,0 +1,28 @@
+@use "../scss_partials/_colors" as *;
+@use "../scss_partials/_global" as *;
+
+.nav-bar {
+  @include flex-box(row, space-between,center, nowrap);
+  padding: 0 5%;
+  box-sizing: border-box;
+  width: 100vw;
+  background-color: $neutral-color-4;
+  position: fixed;
+  
+  &__items {
+    @include flex-box(row, space-around,center, nowrap);
+    list-style: none;
+    padding: 0 0.5rem;
+    &--selected {
+        text-decoration: underline;
+        text-decoration-color: $accent-color-2;
+        text-decoration-thickness: 0.25rem;
+        text-underline-offset: 0.5rem;
+        padding: 0 0.5rem;
+    }
+   
+    }
+    &--anchor {
+        color: $neutral-color-3;
+    }
+  }

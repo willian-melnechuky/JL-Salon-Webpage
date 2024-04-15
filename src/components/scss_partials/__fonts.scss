@@ -1,0 +1,40 @@
+@use "./_colors.scss" as *;
+html {
+    font-size: 90%;
+    font-family: "Roboto Condensed", sans-serif;
+    color: $accent-color-1;
+    p, h6 {
+        font-size: 1rem;
+        margin: 1rem 0;
+        font-weight: 300;
+    }
+    h5 {
+        font-size: 1.4rem;
+        margin: 1rem 0;
+    }
+    h4 {
+        font-size: 1.96rem;
+        margin: 1rem 0;
+    }
+    h3 {
+        font-size: 2.74rem;
+        margin: 1rem 0;
+    }
+    h2 {
+        font-size: 3.84rem;
+        margin: 1rem 0;
+    }
+    h1 {
+        font-size: 5.38rem;
+        margin: 1rem 0;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    a {
+        color: $accent-color-1;
+        text-decoration: none;
+    }
+}

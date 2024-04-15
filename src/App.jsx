@@ -1,4 +1,5 @@
 import Header from './components/Header/Header.jsx';
+import Hero from './components/Hero/Hero.jsx'
 import CoreConcepts from './components/CoreConcepts.jsx';
 import Services from './components/Services.jsx';
 
@@ -7,10 +8,13 @@ function App() {
 
   return (
     <>
-      <Header />
+      <header>
+        <Header page="Home"/>
+      </header>
       <main>
-        <CoreConcepts/>
-        <Services/>
+        <Hero/>
+        {/* <CoreConcepts/>
+        <Services/> */}
       </main>
     </>
   );
