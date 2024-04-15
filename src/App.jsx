@@ -13,8 +13,8 @@ function App() {
       </header>
       <main>
         <Hero/>
-        {/* <CoreConcepts/>
-        <Services/> */}
+        <CoreConcepts/>
+        <Services/>
       </main>
     </>
   );
