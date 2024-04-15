@@ -8,9 +8,7 @@ function App() {
 
   return (
     <>
-      <header>
-        <Header page="Home"/>
-      </header>
+      <Header page="Home"/>
       <main>
         <Hero/>
         {/* <CoreConcepts/>
