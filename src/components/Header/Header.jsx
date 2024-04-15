@@ -8,10 +8,10 @@ export default function Header({page}) {
       <h5><a>Jane Hairstylist</a></h5>
       {/* <img src={reactImg} alt="Logo" /> */}
       <ul className="nav-bar__items">
-        <li className={"nav-bar__items" + (page ==='Home'      ? '--selected' : "")}><a>Home</a></li>
-        <li className={"nav-bar__items" + (page ==='Services'  ? '--selected' : "")}><a>Services</a></li>
-        <li className={"nav-bar__items" + (page ==='Contact'   ? '--selected' : "")}><a>Contact</a></li>
-        <li className={"nav-bar__items" + (page ==='Hours'     ? '--selected' : "")}><a>Hours</a></li>
+        <li className={"nav-bar__items" + (page ==='Home'      ? '--selected' : "")}><a href=''>Home</a></li>
+        <li className={"nav-bar__items" + (page ==='Services'  ? '--selected' : "")}><a href=''>Services</a></li>
+        <li className={"nav-bar__items" + (page ==='Contact'   ? '--selected' : "")}><a href=''>Contact</a></li>
+        <li className={"nav-bar__items" + (page ==='Hours'     ? '--selected' : "")}><a href=''>Hours</a></li>
       </ul>
     </header>
   );
