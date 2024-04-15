@@ -1,9 +1,9 @@
 
 import { useState } from 'react';
-import TabButton from './TabButton.jsx';
+// import TabButton from './TabButton.jsx';
 import { EXAMPLES } from '../data.js';
-import Tabs from './Tabs.jsx';
-import Section from './Section.jsx';
+// import Tabs from './Tabs.jsx';
+// import Section from './Section.jsx';
 
 export default function Services() {
 
