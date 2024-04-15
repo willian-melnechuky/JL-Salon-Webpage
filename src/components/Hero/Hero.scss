@@ -1,27 +1,39 @@
 @use "../scss_partials/_colors" as *;
 @use "../scss_partials/_global" as *;
-
+//@use "../../assets/gallery/image_1.jpg" as background_image;
 .hero {
-    background: linear-gradient(45deg, $neutral-color-2, $neutral-color-1);
-    @include flex-box(row, space-between,center, nowrap);
+  @include flex-box(row, center, center, wrap);  
+  //background: linear-gradient(45deg, $neutral-color-2, $neutral-color-1);
+    //@include flex-box(row, space-between,center, nowrap);
     box-sizing: border-box;
+    text-align: center;
+    color: $neutral-color-1;
     padding: 3.75rem 5%;
+    background-image: url("../../assets/gallery/image_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70vh;
     &__descr {
-        @include flex-box(column, space-around,flex-start, nowrap);
-        padding-top: 4rem;
-        width: 50%
+      background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
+      width: 60%;
     }
+    &__img {
+      background-image: url("../../assets/gallery/image_1.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      filter: blur(2px);
+    -webkit-filter: blur(2px);
+    height: 70vh;
+    }
+
     button {
         background-color: $accent-color-2;
         color: $neutral-color-1;
         border: 0;
         border-radius: 1rem;
         padding: 0.4rem 2rem;
-    }
-    &__img {
-        width: 40%;
-        // height: 500px;
-        object-fit:scale-down;
     }
     
 }
