@@ -1,6 +1,6 @@
 import './Hero.css';
 import '../GallerySlideshow/GallerySlideshow.jsx'
-import GallerySlideshow from '../GallerySlideshow/GallerySlideshow.jsx';
+//import GallerySlideshow from '../GallerySlideshow/GallerySlideshow.jsx';
 
 export default function Hero() {
   
