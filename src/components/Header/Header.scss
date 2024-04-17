@@ -6,7 +6,7 @@
   padding: 0 5%;
   box-sizing: border-box;
   width: 100vw;
-  background-color: $neutral-color-4;
+  background-color: $neutral-color-1;
   position: fixed;
   
   &__items {
@@ -23,6 +23,6 @@
    
     }
     &--anchor {
-        color: $neutral-color-3;
+        color: $neutral-color-2;
     }
   }

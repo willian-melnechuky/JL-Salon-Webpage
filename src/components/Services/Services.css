@@ -98,34 +98,30 @@ footer .footer__list__card__sublist--icons li {
   padding: 0 3rem 0 0;
 }
 
-.nav-bar {
+.our-product {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 2rem 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
-  padding: 0 5%;
-  box-sizing: border-box;
-  width: 100vw;
-  background-color: #ffffff;
-  position: fixed;
 }
-.nav-bar__items {
+.our-product .our-product__h2 {
+  margin: 0;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  list-style: none;
-  padding: 0 0.5rem;
 }
-.nav-bar__items--selected {
-  text-decoration: underline;
-  text-decoration-color: #4d0c74;
-  text-decoration-thickness: 0.25rem;
-  text-underline-offset: 0.5rem;
-  padding: 0 0.5rem;
-}
-.nav-bar--anchor {
-  color: #e2e2e2;
-}/*# sourceMappingURL=Header.css.map */
+.our-product .our-product__list {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}/*# sourceMappingURL=Services.css.map */

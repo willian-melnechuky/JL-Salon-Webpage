@@ -1,0 +1,19 @@
+@use '../scss_partials/_colors.scss' as *;
+@use '../scss_partials/_global.scss' as *;
+
+.our-product {
+    background-color: $neutral-color-1;
+    width: 100%;
+    padding: 2rem 0;
+    @include flex-box (column,space-between,center,nowrap);
+    .our-product__h2{
+        margin: 0;
+        @include flex-box (column,center,center,nowrap);
+    }
+    .our-product__list {
+        
+        padding: 50px 0;
+        @include flex-box (row,center,center,wrap);
+        width: 100%;
+    }
+}
