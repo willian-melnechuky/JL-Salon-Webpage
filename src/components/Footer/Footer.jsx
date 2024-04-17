@@ -28,7 +28,7 @@ export default function Footer() {
             <li className="footer__list__card">
                 <h4 className="">Social</h4>
                 <ul className="footer__list__card__sublist--icons">
-                    <li><a href='https://www.instagram.com/janesclair_rib/' target='_blank'><img src={insta} alt="instagram"/></a></li>
+                    <li><a href='https://www.instagram.com/janesclair_rib/' target='_blank' rel="noreferrer"><img src={insta} alt="instagram"/></a></li>
                     <li><img src="./assets/Icons/icon-facebook.png" alt=""/></li>
                     <li><img src="./assets/Icons/icon-twitter.png" alt=""/></li>
                 </ul>
