@@ -14,7 +14,7 @@ export default function Hero() {
           <p className='grow'>Unlock your inner brilliance</p>
           <div className='button_container '>
             <button className="button_container--default-button">
-              <a className="button_container--default-anchor" href="./pages/menu.html">Shop Now</a>
+              <a className="button_container--default-anchor" href="./pages/menu.html">Book Now</a>
             </button>
           </div>
         </div>
