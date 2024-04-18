@@ -7,7 +7,7 @@ export default function Footer() {
         <ul className="footer__list">
             <li className="footer__list__card fullwidth">
                 <h4 className="">Location</h4>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9773.917366377196!2d-79.76527013815725!3d43.25555000561859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c9f4aaa89762d%3A0x5a51bfdd8c03e7c6!2sConfederation%20Park%20A%2C%20Hamilton%2C%20ON!5e0!3m2!1sen!2sca!4v1713407545874!5m2!1sen!2sca" width="100%" height="300" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title='location' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9773.917366377196!2d-79.76527013815725!3d43.25555000561859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c9f4aaa89762d%3A0x5a51bfdd8c03e7c6!2sConfederation%20Park%20A%2C%20Hamilton%2C%20ON!5e0!3m2!1sen!2sca!4v1713407545874!5m2!1sen!2sca" width="100%" height="400" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </li>
             <li className="footer__list__card">
                 <h4 className="">Contact</h4>
