@@ -41,63 +41,6 @@ body {
   padding: 0;
 }
 
-footer {
-  background-color: #e2e2e2;
-  padding-bottom: 2rem;
-  padding-top: 2.5rem;
-}
-footer .footer__list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-footer .footer__list--subtitle {
-  color: #4d0c74;
-  font-size: 0.75rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0;
-}
-footer .footer__list__card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-}
-footer .footer__list__card__sublist {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-  list-style: none;
-  padding-left: 0;
-}
-footer .footer__list__card__sublist li {
-  padding: 0 2rem 0 0;
-}
-footer .footer__list__card__sublist--icons {
-  margin-top: 2.5rem;
-  padding-left: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-  list-style: none;
-}
-footer .footer__list__card__sublist--icons img {
-  height: 2rem;
-}
-footer .footer__list__card__sublist--icons li {
-  padding: 0 3rem 0 0;
-}
-
 .our-product {
   background-color: #ffffff;
   width: 100%;

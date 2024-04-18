@@ -1,4 +1,6 @@
 import insta from '../../assets/icons/instagram_icon.png'
+import whatapp from '../../assets/icons/whatapp_icon.png'
+import './Footer.css'
 export default function Footer() {
     return (
     <footer>
@@ -25,12 +27,11 @@ export default function Footer() {
                     </li>
                 </ul>
             </li>
-            <li className="footer__list__card">
+            <li className="footer__list__card--centered">
                 <h4 className="">Social</h4>
                 <ul className="footer__list__card__sublist--icons">
-                    <li><a href='https://www.instagram.com/janesclair_rib/' target='_blank' rel="noreferrer"><img src={insta} alt="instagram"/></a></li>
-                    <li><img src="./assets/Icons/icon-facebook.png" alt=""/></li>
-                    <li><img src="./assets/Icons/icon-twitter.png" alt=""/></li>
+                    <li><a href='https://www.instagram.com/janesclair_rib/'                     target='_blank' rel="noreferrer"><img src={insta} alt="instagram"/></a></li>
+                    <li><a href="https://www.whatsapp.com/catalog/19053200764/?app_absent=0"    target='_blank' rel="noreferrer"><img src={whatapp} alt="whatapp"/></a></li>
                 </ul>
             </li>
         </ul>
