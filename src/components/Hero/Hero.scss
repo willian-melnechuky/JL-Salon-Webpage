@@ -41,7 +41,7 @@
     //@include flex-box(row, space-between,center, nowrap);
     box-sizing: border-box;
     text-align: center;
-    color: $neutral-color-2;
+    color: $neutral-color-1;
     padding: 3.75rem 5%;
     background-image: url("../../assets/Salon_Image.jpg");
     background-size: cover;
@@ -49,7 +49,7 @@
     background-position: center center;
     height: 70vh;
     &__descr {
-      background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+      background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
       width: 60%;
       padding: 1rem;
       @include flex-box(row, center, center, wrap);  

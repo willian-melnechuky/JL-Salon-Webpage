@@ -80,7 +80,7 @@ body {
   flex-wrap: wrap;
   box-sizing: border-box;
   text-align: center;
-  color: #e2e2e2;
+  color: #ffffff;
   padding: 3.75rem 5%;
   background-image: url("../../assets/Salon_Image.jpg");
   background-size: cover;
@@ -89,7 +89,7 @@ body {
   height: 70vh;
 }
 .hero__descr {
-  background-color: rgba(0, 0, 0, 0.5); /* Black w/opacity/see-through */
+  background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
   width: 60%;
   padding: 1rem;
   display: flex;
