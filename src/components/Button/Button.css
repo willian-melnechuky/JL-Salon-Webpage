@@ -1,0 +1,36 @@
+.button_container {
+  background-color: #4d0c74;
+}
+.button_container .button_container--default-button:active {
+  top: 0px;
+  left: 0px;
+}
+.button_container .button_container--default-anchor {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+.button_container .button_container--default-button--small {
+  height: 30px;
+  padding: 5px;
+  width: 90px;
+  position: relative;
+  background-color: #4d0c74;
+  border-color: #a8a8a8;
+  z-index: 1;
+  top: -5px;
+  left: -5px;
+}
+.button_container .button_container--default-button--normal {
+  width: 180px;
+  height: 60px;
+  padding: 20px;
+  position: relative;
+  background-color: transparent;
+  border-color: #4d0c74;
+  z-index: 1;
+  top: -5px;
+  left: -5px;
+}/*# sourceMappingURL=Button.css.map */

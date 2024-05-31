@@ -16,7 +16,7 @@ export default function Footer() {
             </li>
             <li className="footer__list__card">
                 <h4 className="">Hours</h4>
-                <ul className="footer__list__card__sublist">
+                <ul className="footer__list__card__sublist" id="hours">
                     <li>
                         <h6 className="footer__list--subtitle">MONDAY - FRIDAY</h6>
                         <h6>by appointment only</h6>

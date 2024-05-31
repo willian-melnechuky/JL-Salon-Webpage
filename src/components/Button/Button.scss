@@ -1,0 +1,40 @@
+@use "../scss_partials/_colors" as *;
+.button_container {
+    background-color: $accent-color-2;
+    
+    .button_container--default-button:active {
+            top: 0px;
+            left: 0px;
+        }
+    
+    .button_container--default-anchor {
+        text-decoration: none;
+        color: $neutral-color-1;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+    }
+    .button_container--default-button--small {
+        height: 30px;
+        padding: 5px;
+        width: 90px;
+        position: relative;
+        background-color: $accent-color-2;
+        border-color: $neutral-color-2;
+        z-index: 1;
+        top: -5px;
+        left: -5px;
+    }
+    .button_container--default-button--normal {
+        width: 180px;
+        height: 60px;
+        padding: 20px;
+        position: relative;
+        background-color: transparent;
+        border-color: $accent-color-2;
+        z-index: 1;
+        top: -5px;
+        left: -5px;
+    }
+    
+  }

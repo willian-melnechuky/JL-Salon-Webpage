@@ -1,35 +1,7 @@
 @use "../scss_partials/_colors" as *;
 @use "../scss_partials/_global" as *;
 //@use "../../assets/gallery/image_1.jpg" as background_image;
-.button_container {
-  background-color: $accent-color-2;
-  width: 180px;
-  .button_container--default-button {
-      position: relative;
-      background-color: transparent;
-      width: 180px;
-      height: 60px;
-      padding: 20px;
-      border-color: $neutral-color-2;
-      z-index: 1;
-      top: -5px;
-      left: -5px;
-      
-  }
-  .button_container--default-button:active {
-          top: 0px;
-          left: 0px;
-      }
-  
-  .button_container--default-anchor {
-      text-decoration: none;
-      color: $neutral-color-1;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 1rem;
-  }
-  
-}
+
 
 .grow {
   min-width: 100%;
@@ -55,7 +27,7 @@
       @include flex-box(row, center, center, wrap);  
     }
     &__img {
-      background-image: url("../../assets/gallery/image_1.jpg");
+      //background-image: url("../../assets/gallery/image_1.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -69,3 +41,23 @@
   margin: 0;
 }
 
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .back-video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .back-video {
+    width: auto;
+    height: 100%;
+  }
+}
