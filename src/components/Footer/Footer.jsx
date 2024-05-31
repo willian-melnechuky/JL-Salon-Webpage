@@ -4,7 +4,7 @@ import './Footer.css'
 export default function Footer() {
     return (
     <>
-    <p className='prompt'>Unlock your inner brilliance</p>
+    <p className='prompt'>Unlock your inner brilliance. See the <a href='https://www.instagram.com/janesclair_rib/' className='anchor_format' >Instagram Page</a></p>
     <footer>
         <ul className="footer__list">
             <li className="footer__list__card fullwidth">

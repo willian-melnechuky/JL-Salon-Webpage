@@ -83,9 +83,15 @@ footer {
   }
   .prompt {
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 2rem;
     justify-content: center;
     border: 1px, solid, black;
     margin: 0;    
+}
+.anchor_format {
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
 }
