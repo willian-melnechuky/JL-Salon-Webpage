@@ -3,23 +3,23 @@ import './Hero.css';
 //import GallerySlideshow from '../GallerySlideshow/GallerySlideshow.jsx';
 //import Button from '../Button/Button.jsx'
 // import hero_video from '../../assets/Hero_Video.mp4'
-import image1 from '../../assets/Salon_Image.jpg'
-import image2 from '../../assets/female_cut.jpg'
-import image3 from '../../assets/male_cut.jpg'
+// import image1 from '../../assets/Salon_Image.jpg'
+// import image2 from '../../assets/female_cut.jpg'
+// import image3 from '../../assets/male_cut.jpg'
 
 export default function Hero() {
     // Array of images to cycle through
-    const images = [{image1}, {image2}, {image3}];
-    function changeBackground() {
-      const heroSection = document.getElementById('hero_');
-      let index = 0;
+    // const images = [{image1}, {image2}, {image3}];
+    // function changeBackground() {
+    //   const heroSection = document.getElementById('hero_');
+    //   let index = 0;
     
-      setInterval(() => {
-        heroSection.style.backgroundImage = `url(${images[index]})`;
-        index = (index + 1) % images.length; // Loop back to the first image
-        console.log('ran')
-      }, 5000); // Change image every 1000 milliseconds (1 second)
-    }
+    //   setInterval(() => {
+    //     heroSection.style.backgroundImage = `url(${images[index]})`;
+    //     index = (index + 1) % images.length; // Loop back to the first image
+    //     console.log('ran')
+    //   }, 5000); // Change image every 1000 milliseconds (1 second)
+    // }
     
 
     return (
