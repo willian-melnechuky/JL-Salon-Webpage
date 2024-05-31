@@ -71,4 +71,14 @@ body {
 }
 .nav-bar--anchor {
   color: #a8a8a8;
+}
+
+.highlight {
+  color: #4d0c74;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.border {
+  border: 2px, solid, #ffffff;
 }/*# sourceMappingURL=Header.css.map */

@@ -26,3 +26,13 @@
         color: $neutral-color-2;
     }
   }
+  .highlight {
+  color: $accent-color-2;
+  font-weight: 700;
+  font-size: 1.25rem;
+
+  }
+
+  .border {
+    border: 2px, solid, $neutral-color-1;
+  }
