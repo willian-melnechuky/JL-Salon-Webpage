@@ -76,7 +76,7 @@ body {
 .highlight {
   color: #4d0c74;
   font-weight: 700;
-  font-size: 1.25rem;
+  width: 70px;
 }
 
 .border {
