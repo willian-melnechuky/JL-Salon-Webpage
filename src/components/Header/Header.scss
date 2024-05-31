@@ -8,7 +8,6 @@
   width: 100vw;
   background-color: $neutral-color-1;
   position: fixed;
-  
   &__items {
     @include flex-box(row, space-around,center, nowrap);
     list-style: none;

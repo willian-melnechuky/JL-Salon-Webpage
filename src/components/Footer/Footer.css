@@ -138,4 +138,13 @@ footer .footer__list__card__sublist--icons li {
 }
 .fullwidth {
   width: 100%;
+}
+
+.prompt {
+  width: 100%;
+  font-size: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  border: 1px, solid, black;
+  margin: 0;
 }/*# sourceMappingURL=Footer.css.map */
