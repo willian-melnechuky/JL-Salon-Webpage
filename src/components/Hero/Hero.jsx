@@ -33,7 +33,7 @@ export default function Hero() {
           <p className='grow'>Book now by sending a message on:</p>
           <p className='grow__button'><a  className='links' href="https://www.whatsapp.com/catalog/19053200764/?app_absent=0"> → WhatApp  </a></p>
           <p className='grow__button'><a  className='links' href="https://www.instagram.com/janesclair_rib/">  → Instagram  </a></p>
-          <p className='grow__button'><a className='links' href ='tel:2899380506'>  → Phone  </a></p>
+          <p className='grow__button'><a className='links' href ='tel:9053200764'>  → Phone  </a></p>
           {/* <Button/> */}
         </div>
         {/* <GallerySlideshow/> */}
