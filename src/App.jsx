@@ -11,6 +11,8 @@ function App() {
       <main>
         <Hero/>
         <Services/>
+        <p className='prompt'>Unlock your inner brilliance</p>
+        
         <InstaFeed/>
       </main>
       <Footer/>
