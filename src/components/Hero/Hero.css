@@ -101,4 +101,12 @@ body {
     width: auto;
     height: 100%;
   }
+}
+.links {
+  color: #4d0c74;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+  font-size: 1.25rem;
+  background-color: white;
 }/*# sourceMappingURL=Hero.css.map */
