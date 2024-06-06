@@ -50,6 +50,7 @@ body {
   padding: 0 5%;
   box-sizing: border-box;
   width: 100vw;
+  height: 12vh;
   background-color: #ffffff;
   position: fixed;
 }
@@ -70,7 +71,7 @@ body {
   padding: 0 0.5rem;
 }
 .nav-bar--anchor {
-  color: #a8a8a8;
+  color: #ececec;
 }
 
 .highlight {

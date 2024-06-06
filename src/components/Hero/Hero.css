@@ -74,13 +74,15 @@ body {
   box-sizing: border-box;
   text-align: center;
   color: #ffffff;
-  padding: 15vh 5% 1vh 5%;
+  padding: 5vh 5% 1vh 5%;
   background-image: url("../../assets/Salon_Image.jpg");
   transition: opacity 1s ease-in-out;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100vh;
+  height: 88vh;
+  position: relative;
+  top: 12vh;
 }
 .hero__descr {
   background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
