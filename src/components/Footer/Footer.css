@@ -46,6 +46,8 @@ footer {
   padding-bottom: 2rem;
   padding-top: 2.5rem;
   width: 100%;
+  position: relative;
+  top: 12vh;
 }
 footer .footer__list {
   display: flex;

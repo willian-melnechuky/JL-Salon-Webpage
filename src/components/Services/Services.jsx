@@ -14,7 +14,6 @@ export default function Services() {
                 <Card service="Highlights" desc='Ask for more information' price='' img_path={hair_colour}/>
                 <Card service="Male haircut" desc='Shampoo and haircut. $10 plus for beard trims' price='$25' img_path={male_cut}/>
                 <Card service="Nails" desc='Ask for more information' price='' img_path={nails}/>
-            
             </div>
         </article>
     );

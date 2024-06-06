@@ -1,6 +1,9 @@
+import './instaFeed.css';
+
 export default function InstaFeed() {
     return (
-        <>
+        <div className="insta">
+            <p className='prompt'>Unlock your inner brilliance.<br/>See the <a href='https://www.instagram.com/janesclair_rib/' className='anchor_format' >Instagram Page</a> for ideas</p>
             {/* <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
             <div className="elfsight-app-932c9db5-e0bb-4ac3-b4a4-d734f5fbd797" data-elfsight-app-lazy></div>     */}
             {/* <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/C5vqFDOOTRA/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" styles=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
@@ -54,6 +57,6 @@ export default function InstaFeed() {
                 </div>
             </blockquote>
             <script async src="//www.instagram.com/embed.js"></script> */}
-        </>
+        </div>
     );
 }

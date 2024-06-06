@@ -3,8 +3,6 @@ import whatapp from '../../assets/icons/whatapp_icon.png'
 import './Footer.css'
 export default function Footer() {
     return (
-    <>
-    <p className='prompt'>Unlock your inner brilliance.<br/>See the <a href='https://www.instagram.com/janesclair_rib/' className='anchor_format' >Instagram Page</a> for ideas</p>
     <footer>
         <ul className="footer__list">
             <li className="footer__list__card fullwidth">
@@ -45,6 +43,5 @@ export default function Footer() {
             </li>
         </ul>
     </footer>
-    </>
     );
 }

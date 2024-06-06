@@ -6,6 +6,8 @@ footer {
     padding-bottom: 2rem;
     padding-top: 2.5rem;
     width: 100%;
+    position: relative;
+    top: 12vh;
     .footer__list {
         @include flex-box(row, space-around,flex-start, wrap);
         list-style: none;

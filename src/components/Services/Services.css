@@ -45,6 +45,8 @@ body {
   background-color: #ffffff;
   width: 100%;
   padding: 2rem 0;
+  position: relative;
+  top: 12vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
