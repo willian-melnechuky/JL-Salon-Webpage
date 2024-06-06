@@ -30,10 +30,14 @@ export default function Hero() {
         </video> */}
         <div className='hero__descr'>
           <h4 className='noMargin grow'>Refresh your elegance</h4>
-          <p className='grow'>Book now by sending a message on:</p>
-          <p className='grow__button'><a  className='links' href="https://www.whatsapp.com/catalog/19053200764/?app_absent=0"> → WhatApp  </a></p>
-          <p className='grow__button'><a  className='links' href="https://www.instagram.com/janesclair_rib/">  → Instagram  </a></p>
-          <p className='grow__button'><a className='links' href ='tel:9053200764'>  → Phone  </a></p>
+        </div>
+        <div className='hero__descr'>
+          <p className='grow noMargin'>Book now by sending a message on:</p>
+          <div className='buttons'>
+            <p className='grow__button noMargin'><a  className='links' href="https://www.whatsapp.com/catalog/19053200764/?app_absent=0">WhatApp</a></p>
+            <p className='grow__button noMargin'><a  className='links' href="https://www.instagram.com/janesclair_rib/">Instagram</a></p>
+            <p className='grow__button noMargin'><a className='links' href ='tel:9053200764'>Phone</a></p>
+          </div>
           {/* <Button/> */}
         </div>
         {/* <GallerySlideshow/> */}

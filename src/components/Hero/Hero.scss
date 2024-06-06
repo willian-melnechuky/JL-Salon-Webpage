@@ -6,31 +6,39 @@
 .grow {
   min-width: 100%;
   &__button {
+    display: flex;
     background-color: white;
     border: 2px, solid, black;
-    min-width: 80%;
+    min-width: 25%;
+    min-height:10vh;
     padding: 0.5rem;
     margin:0.125rem,0;
+    justify-content: center;
+    align-items: center;
   }
+}
+.buttons {
+  @include flex-box(row, space-around, center, nowrap); 
+  width: 100%;
 }
 
 .hero {
-  @include flex-box(row, center, center, wrap);  
+  @include flex-box(column, space-between, center, wrap);  
   //background: linear-gradient(45deg, $neutral-color-2, $neutral-color-1);
     //@include flex-box(row, space-between,center, nowrap);
     box-sizing: border-box;
     text-align: center;
     color: $neutral-color-1;
-    padding: 3.75rem 5%;
+    padding: 15vh 5% 1vh 5%;
     background-image: url("../../assets/Salon_Image.jpg");
     transition: opacity 1s ease-in-out;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 70vh;
+    height: 100vh;
     &__descr {
       background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
-      width: 60%;
+      width: 90%;
       padding: 1rem;
       @include flex-box(row, center, center, wrap);  
     }
