@@ -53,6 +53,7 @@ body {
   height: 12vh;
   background-color: #ffffff;
   position: fixed;
+  z-index: 999;
 }
 .nav-bar__items {
   display: flex;
