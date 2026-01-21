@@ -32,14 +32,14 @@ export default function Hero() {
           <h4 className='noMargin grow'>Refresh your elegance</h4>
         </div>
         <div className='hero__descr'>
-          /*<p className='grow noMargin'>Book now by sending a message on:</p>//Updating Book now message */ 
+          {/*<p className='grow noMargin'>Book now by sending a message on:</p>//Updating Book now message */}
           <div className='buttons'>
             <p className='grow__button noMargin'><a  className='links' href="https://www.fresha.com/book-now/janes-hairstylist-q0u40ind/all-offer?share=true&pId=2582207">Book Now</a></p>
-            /*
+            {/*
             <p className='grow__button noMargin'><a  className='links' href="https://www.whatsapp.com/catalog/19053200764/?app_absent=0">WhatApp</a></p>
             <p className='grow__button noMargin'><a  className='links' href="https://www.instagram.com/janesclair_rib/">Instagram</a></p>
             <p className='grow__button noMargin'><a className='links' href ='tel:9053200764'>Phone</a></p> 
-            */
+            */}
           </div>
           {/* <Button/> */}
         </div>
