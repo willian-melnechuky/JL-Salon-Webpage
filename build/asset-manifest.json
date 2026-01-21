@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.83a19ff1.css",
+    "main.js": "/static/js/main.d9b71f13.js",
+    "static/media/Salon_Image.jpg": "/static/media/Salon_Image.2f7cf4624a66a7c28a4b.jpg",
+    "static/media/highlight.jpg": "/static/media/highlight.62eca51f371447fc33f1.jpg",
+    "static/media/male_cut_1.jpg": "/static/media/male_cut_1.0395dfc06de81b01e7a6.jpg",
+    "static/media/female_cut.jpg": "/static/media/female_cut.bf48e95131ae38530729.jpg",
+    "static/media/nails.jpg": "/static/media/nails.d76b8f996ce67a5b9c5d.jpg",
+    "index.html": "/index.html",
+    "main.83a19ff1.css.map": "/static/css/main.83a19ff1.css.map",
+    "main.d9b71f13.js.map": "/static/js/main.d9b71f13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83a19ff1.css",
+    "static/js/main.d9b71f13.js"
+  ]
+}
