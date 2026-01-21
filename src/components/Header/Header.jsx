@@ -9,7 +9,7 @@ export default function Header({page}) {
       <h5><a href='.nav-bar'>Jane Hairstylist</a></h5>
       {/* <img src={reactImg} alt="Logo" /> */}
       <ul className="nav-bar__items">
-        <li className={"nav-bar__items" + (page ==='Book Now'     ? '--selected' : "")}><a href='#hero' className='highlight'>Book Now</a></li>
+        <li className={"nav-bar__items" + (page ==='Book Now'     ? '--selected' : "")}><a href='https://www.fresha.com/book-now/janes-hairstylist-q0u40ind/all-offer?share=true&pId=2582207' className='highlight'>Book Now</a></li>
         {/* <li className={"nav-bar__items" + (page ==='Home'      ? '--selected' : "")}><a href='index.html'>Home</a></li> */}
         <li className={"nav-bar__items" + (page ==='Services'  ? '--selected' : "")}><a href='#services'>Services</a></li>
         <li className={"nav-bar__items" + (page ==='Hours'     ? '--selected' : "")}><a href='#hours'>Hours</a></li>
